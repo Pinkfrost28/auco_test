@@ -5,7 +5,7 @@
     import { useEffect, useState } from "react"
 
 
-    function postsPage() {
+    function PostsPage() {
 
         const ITEMS_PER_PAGE = 6;
         const [posts, setPosts] = useState([])
@@ -84,5 +84,5 @@
         )
     }
 
-    export default postsPage;
+    export default PostsPage;
 
