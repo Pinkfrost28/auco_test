@@ -7,14 +7,14 @@ const links = [{
   label: 'Posts',
   route: '/posts'
 }, {
-  label: 'About',
+  label: 'About Me',
   route: '/about'
 },]
 function NavBar() {
   return (
     <nav className={`${style.NavBar} bg-gray-900 text-white py-8 flex justify-between items-center pr-4 `}>
       <div className={`text-2xl font-bold ${style.logo}`}>
-        <Link href="/">NavBar</Link>
+        <Link href="/">AUCO Prueba</Link>
       </div>
       <ul className="flex space-x-20">
         {links.map(({ label, route }) => (
