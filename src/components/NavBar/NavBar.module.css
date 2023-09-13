@@ -1,0 +1,17 @@
+
+.NavBar .logo {
+    margin-left: 5%;
+}
+
+.NavBar .logo a {
+    font-size: 2rem;
+}
+
+.NavBar ul {
+    margin-right: 5%;
+}
+
+
+.NavBar a {
+    font-size: 1.2rem;
+}
