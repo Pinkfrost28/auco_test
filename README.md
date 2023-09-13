@@ -1,34 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Prueba Técnica para AUCO
 
-## Getting Started
+¡Bienvenido a mi prueba técnica para AUCO! En este proyecto, he creado una aplicación web donde puedes encontrar información sobre los posts de una API, navegar por ellos, buscar por título y conocer más sobre el mi. A continuación, te presentos las principales características de esta prueba técnica:
 
-First, run the development server:
+## Características Principales
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### 1. Renderizado de Posts
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+He utilizado una API para obtener una lista de posts que se muestran en la página principal de la aplicación. Cada post incluye título, contenido y una breve descripción.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### 2. Paginación
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Los posts están organizados en páginas, lo que permite una fácil navegación a través de la lista. Puedes avanzar o retroceder entre las páginas para ver más posts.
 
-## Learn More
+### 3. Búsqueda por Título
 
-To learn more about Next.js, take a look at the following resources:
+He incorporado una barra de búsqueda que te permite buscar posts específicos por título. Solo tienes que escribir el título en la barra de búsqueda y la aplicación filtrará automáticamente los resultados.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 4. Detalles de Post
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Si haces clic en un post en particular, serás redirigido a una página separada que muestra todos los detalles de ese post. Esto incluye el título, el contenido y todos los comentarios asociados.
 
-## Deploy on Vercel
+### 5. Página "Acerca de Mí"
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Además de la funcionalidad relacionada con los posts, he incluido una página "About me". En esta página, puedes conocer más sobre el mi y mis aspiraciones y sueños.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
